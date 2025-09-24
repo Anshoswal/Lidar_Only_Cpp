@@ -2,54 +2,52 @@ cmake_minimum_required(VERSION 3.8)
 project(lidar_only_cpp)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
+  add_compile_options(-Wall -Wextra -Wpedantic -O3 -DNDEBUG)
 endif()
 
-# Find necessary ROS 2, PCL, and Open3D packages
+# Find ROS 2 and external dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(pcl_conversions REQUIRED)
-find_package(PCL 1.10 REQUIRED)
-find_package(Open3D REQUIRED) # <-- You correctly added this
+find_package(ament_index_cpp REQUIRED)
+find_package(Open3D REQUIRED)
+find_package(onnxruntime REQUIRED)
 
-# Add PCL include directories (Open3D's are handled by the target)
-include_directories(${PCL_INCLUDE_DIRS})
+# Add your executable
+add_executable(data_extractor_node src/lidar_only_cpp/src/data_extractor_node.cpp)
 
-# Define the executable to be built from your C++ source file
-add_executable(data_extractor_node src/data_extractor_node.cpp)
-
-# Link the ROS 2 libraries your node depends on
+# Link ROS 2 libraries
 ament_target_dependencies(data_extractor_node
   rclcpp
   sensor_msgs
   visualization_msgs
   pcl_conversions
+  ament_index_cpp
 )
 
-# =================================================================
-# === THE FIX IS HERE ===
-# =================================================================
-# Link the PCL and Open3D libraries your node depends on
+# Link external libraries
 target_link_libraries(data_extractor_node
-  ${PCL_LIBRARIES}
-  Open3D::Open3D  # <-- CRUCIAL FIX: This links against the Open3D library
+  PRIVATE
+  Open3D::Open3D
+  onnxruntime::onnxruntime
 )
-# =================================================================
 
-
-# Install the executable so ros2 run can find it
+# Install the executable
 install(TARGETS
   data_extractor_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
-# This section is for automated testing and linting
+# Install the model files
+install(DIRECTORY
+  src/lidar_only_cpp/models
+  DESTINATION share/${PROJECT_NAME}
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  set(ament_cmake_copyright_FOUND TRUE)
-  set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
 
