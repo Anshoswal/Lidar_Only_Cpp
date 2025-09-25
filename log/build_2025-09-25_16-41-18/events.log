@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000428] (lidar_only_cpp) JobQueued: {'identifier': 'lidar_only_cpp', 'dependencies': OrderedDict()}
+[0.000475] (lidar_only_cpp) JobStarted: {'identifier': 'lidar_only_cpp'}
+[0.005336] (lidar_only_cpp) JobProgress: {'identifier': 'lidar_only_cpp', 'progress': 'cmake'}
+[0.013042] (lidar_only_cpp) JobProgress: {'identifier': 'lidar_only_cpp', 'progress': 'build'}
+[0.013760] (lidar_only_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp', '--', '-j12', '-l12'], 'cwd': '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ansh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.9/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ansh'), ('OLDPWD', '/home/ansh/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1136'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2806'), ('COLCON_PREFIX_PATH', '/home/ansh/Desktop/lidar_only_cpp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ansh'), ('JOURNAL_STREAM', '8:5589'), ('EUFS_MASTER', '/home/ansh/eufs_ws/src'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ansh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/local/cuda-12.9/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/ansh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ansh-Cyborg-15-A12UDX:@/tmp/.ICE-unix/1564,unix/ansh-Cyborg-15-A12UDX:/tmp/.ICE-unix/1564'), ('INVOCATION_ID', '1a69ed298dc04d79b9687949bd35f324'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c01d44b8-a4f7-4239-8db9-06241751c300'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp::/home/ansh/onnxruntime-linux-x64-1.17.1:/opt/ros/humble')]), 'shell': False}
+[0.056085] (lidar_only_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target data_extractor_node\x1b[0m\n'}
+[0.082597] (lidar_only_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/data_extractor_node.dir/src/data_extractor_node.cpp.o\x1b[0m\n'}
+[0.099757] (-) TimerEvent: {}
+[0.200097] (-) TimerEvent: {}
+[0.300400] (-) TimerEvent: {}
+[0.400715] (-) TimerEvent: {}
+[0.500996] (-) TimerEvent: {}
+[0.601368] (-) TimerEvent: {}
+[0.701628] (-) TimerEvent: {}
+[0.801926] (-) TimerEvent: {}
+[0.902214] (-) TimerEvent: {}
+[1.002593] (-) TimerEvent: {}
+[1.102861] (-) TimerEvent: {}
+[1.203160] (-) TimerEvent: {}
+[1.303443] (-) TimerEvent: {}
+[1.403706] (-) TimerEvent: {}
+[1.503994] (-) TimerEvent: {}
+[1.604270] (-) TimerEvent: {}
+[1.704591] (-) TimerEvent: {}
+[1.804854] (-) TimerEvent: {}
+[1.905297] (-) TimerEvent: {}
+[2.005563] (-) TimerEvent: {}
+[2.105887] (-) TimerEvent: {}
+[2.206203] (-) TimerEvent: {}
+[2.306510] (-) TimerEvent: {}
+[2.406812] (-) TimerEvent: {}
+[2.507082] (-) TimerEvent: {}
+[2.607394] (-) TimerEvent: {}
+[2.707696] (-) TimerEvent: {}
+[2.808031] (-) TimerEvent: {}
+[2.908366] (-) TimerEvent: {}
+[3.008673] (-) TimerEvent: {}
+[3.108919] (-) TimerEvent: {}
+[3.209216] (-) TimerEvent: {}
+[3.309457] (-) TimerEvent: {}
+[3.409732] (-) TimerEvent: {}
+[3.510032] (-) TimerEvent: {}
+[3.610277] (-) TimerEvent: {}
+[3.710597] (-) TimerEvent: {}
+[3.810881] (-) TimerEvent: {}
+[3.911123] (-) TimerEvent: {}
+[4.011434] (-) TimerEvent: {}
+[4.111687] (-) TimerEvent: {}
+[4.211969] (-) TimerEvent: {}
+[4.312264] (-) TimerEvent: {}
+[4.412563] (-) TimerEvent: {}
+[4.512800] (-) TimerEvent: {}
+[4.613087] (-) TimerEvent: {}
+[4.713359] (-) TimerEvent: {}
+[4.813595] (-) TimerEvent: {}
+[4.913839] (-) TimerEvent: {}
+[5.014130] (-) TimerEvent: {}
+[5.114421] (-) TimerEvent: {}
+[5.214741] (-) TimerEvent: {}
+[5.315027] (-) TimerEvent: {}
+[5.415296] (-) TimerEvent: {}
+[5.515583] (-) TimerEvent: {}
+[5.615819] (-) TimerEvent: {}
+[5.716053] (-) TimerEvent: {}
+[5.816325] (-) TimerEvent: {}
+[5.916659] (-) TimerEvent: {}
+[6.016900] (-) TimerEvent: {}
+[6.117174] (-) TimerEvent: {}
+[6.217452] (-) TimerEvent: {}
+[6.317736] (-) TimerEvent: {}
+[6.418048] (-) TimerEvent: {}
+[6.518291] (-) TimerEvent: {}
+[6.618615] (-) TimerEvent: {}
+[6.718856] (-) TimerEvent: {}
+[6.819203] (-) TimerEvent: {}
+[6.919536] (-) TimerEvent: {}
+[7.019814] (-) TimerEvent: {}
+[7.120037] (-) TimerEvent: {}
+[7.220329] (-) TimerEvent: {}
+[7.320618] (-) TimerEvent: {}
+[7.420844] (-) TimerEvent: {}
+[7.521074] (-) TimerEvent: {}
+[7.621343] (-) TimerEvent: {}
+[7.721589] (-) TimerEvent: {}
+[7.821805] (-) TimerEvent: {}
+[7.922018] (-) TimerEvent: {}
+[8.022249] (-) TimerEvent: {}
+[8.122531] (-) TimerEvent: {}
+[8.222826] (-) TimerEvent: {}
+[8.323068] (-) TimerEvent: {}
+[8.423329] (-) TimerEvent: {}
+[8.523600] (-) TimerEvent: {}
+[8.623823] (-) TimerEvent: {}
+[8.724102] (-) TimerEvent: {}
+[8.824334] (-) TimerEvent: {}
+[8.924594] (-) TimerEvent: {}
+[9.024919] (-) TimerEvent: {}
+[9.125165] (-) TimerEvent: {}
+[9.211399] (lidar_only_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable data_extractor_node\x1b[0m\n'}
+[9.225297] (-) TimerEvent: {}
+[9.325553] (-) TimerEvent: {}
+[9.425843] (-) TimerEvent: {}
+[9.526135] (-) TimerEvent: {}
+[9.626503] (-) TimerEvent: {}
+[9.726895] (-) TimerEvent: {}
+[9.827207] (-) TimerEvent: {}
+[9.927509] (-) TimerEvent: {}
+[10.027788] (-) TimerEvent: {}
+[10.128111] (-) TimerEvent: {}
+[10.228380] (-) TimerEvent: {}
+[10.254312] (lidar_only_cpp) StdoutLine: {'line': b'[100%] Built target data_extractor_node\n'}
+[10.264886] (lidar_only_cpp) CommandEnded: {'returncode': 0}
+[10.265518] (lidar_only_cpp) JobProgress: {'identifier': 'lidar_only_cpp', 'progress': 'install'}
+[10.272545] (lidar_only_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp'], 'cwd': '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ansh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.9/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ansh'), ('OLDPWD', '/home/ansh/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1136'), ('SYSTEMD_EXEC_PID', '1613'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2806'), ('COLCON_PREFIX_PATH', '/home/ansh/Desktop/lidar_only_cpp/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ansh'), ('JOURNAL_STREAM', '8:5589'), ('EUFS_MASTER', '/home/ansh/eufs_ws/src'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ansh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/local/cuda-12.9/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/ansh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ansh-Cyborg-15-A12UDX:@/tmp/.ICE-unix/1564,unix/ansh-Cyborg-15-A12UDX:/tmp/.ICE-unix/1564'), ('INVOCATION_ID', '1a69ed298dc04d79b9687949bd35f324'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c01d44b8-a4f7-4239-8db9-06241751c300'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp::/home/ansh/onnxruntime-linux-x64-1.17.1:/opt/ros/humble')]), 'shell': False}
+[10.279402] (lidar_only_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.279558] (lidar_only_cpp) StdoutLine: {'line': b'-- Installing: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/lib/lidar_only_cpp/data_extractor_node\n'}
+[10.282219] (lidar_only_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/lib/lidar_only_cpp/data_extractor_node" to ""\n'}
+[10.282312] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/ament_index/resource_index/package_run_dependencies/lidar_only_cpp\n'}
+[10.282383] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/ament_index/resource_index/parent_prefix_path/lidar_only_cpp\n'}
+[10.282430] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/environment/ament_prefix_path.sh\n'}
+[10.282470] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/environment/ament_prefix_path.dsv\n'}
+[10.282531] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/environment/path.sh\n'}
+[10.282580] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/environment/path.dsv\n'}
+[10.282624] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/local_setup.bash\n'}
+[10.282662] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/local_setup.sh\n'}
+[10.282698] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/local_setup.zsh\n'}
+[10.282733] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/local_setup.dsv\n'}
+[10.282768] (lidar_only_cpp) StdoutLine: {'line': b'-- Installing: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/package.dsv\n'}
+[10.282802] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/ament_index/resource_index/packages/lidar_only_cpp\n'}
+[10.282837] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/cmake/lidar_only_cppConfig.cmake\n'}
+[10.282879] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/cmake/lidar_only_cppConfig-version.cmake\n'}
+[10.282923] (lidar_only_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/package.xml\n'}
+[10.284014] (lidar_only_cpp) CommandEnded: {'returncode': 0}
+[10.294943] (lidar_only_cpp) JobEnded: {'identifier': 'lidar_only_cpp', 'rc': 0}
+[10.295413] (-) EventReactorShutdown: {}

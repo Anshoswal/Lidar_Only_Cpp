@@ -1,0 +1,75 @@
+[0.009s] Invoking command in '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(model_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(model_env) /usr/bin/cmake --build /home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp -- -j12 -l12
+[0.037s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.129s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.153s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.154s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.158s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.174s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.193s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.193s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.295s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.311s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.323s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.348s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.370s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.602s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.607s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.719s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.725s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.731s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.831s] -- Found Qhull version 8.0.2
+[0.936s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.038s] [33mCMake Warning (dev) at CMakeLists.txt:21 (find_package):
+[1.038s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.038s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.038s]   command to set the policy and suppress this warning.
+[1.038s] 
+[1.039s]   CMake variable PCL_ROOT is set to:
+[1.039s] 
+[1.039s]     /usr
+[1.039s] 
+[1.039s]   For compatibility, CMake is ignoring the variable.
+[1.039s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.039s] [0m
+[1.051s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.097s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.097s] -- Configured cppcheck include dirs: 
+[1.097s] -- Configured cppcheck exclude dirs and/or files: 
+[1.097s] -- Added test 'lint_cmake' to check CMake code style
+[1.098s] -- Added test 'uncrustify' to check C / C++ code style
+[1.098s] -- Configured uncrustify additional arguments: 
+[1.098s] -- Added test 'xmllint' to check XML markup files
+[1.099s] -- Configuring done
+[1.125s] -- Generating done
+[1.131s] -- Build files have been written to: /home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp
+[1.161s] [35m[1mConsolidate compiler generated dependencies of target data_extractor_node[0m
+[1.188s] [ 50%] [32mBuilding CXX object CMakeFiles/data_extractor_node.dir/src/data_extractor_node.cpp.o[0m
+[5.639s] [01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:[m[K In member function ‘[01m[Kint DataExtractorWithMarkers::predict_cone_type(const std::vector<float>&)[m[K’:
+[5.640s] [01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:1109:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinput_ptrs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.640s]  1109 |             const Ort::Value* [01;35m[Kinput_ptrs[m[K[] = { &input_tensor };
+[5.640s]       |                               [01;35m[K^~~~~~~~~~[m[K
+[10.662s] [100%] [32m[1mLinking CXX executable data_extractor_node[0m
+[11.718s] [100%] Built target data_extractor_node
+[11.727s] Invoked command in '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(model_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(model_env) /usr/bin/cmake --build /home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp -- -j12 -l12
+[11.735s] Invoking command in '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(model_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(model_env) /usr/bin/cmake --install /home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp
+[11.742s] -- Install configuration: ""
+[11.742s] -- Installing: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/lib/lidar_only_cpp/data_extractor_node
+[11.746s] -- Set runtime path of "/home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/lib/lidar_only_cpp/data_extractor_node" to ""
+[11.746s] -- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/ament_index/resource_index/package_run_dependencies/lidar_only_cpp
+[11.746s] -- Installing: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/ament_index/resource_index/parent_prefix_path/lidar_only_cpp
+[11.746s] -- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/environment/ament_prefix_path.sh
+[11.746s] -- Installing: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/environment/ament_prefix_path.dsv
+[11.746s] -- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/environment/path.sh
+[11.746s] -- Installing: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/environment/path.dsv
+[11.747s] -- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/local_setup.bash
+[11.747s] -- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/local_setup.sh
+[11.747s] -- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/local_setup.zsh
+[11.747s] -- Installing: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/local_setup.dsv
+[11.747s] -- Installing: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/package.dsv
+[11.747s] -- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/ament_index/resource_index/packages/lidar_only_cpp
+[11.747s] -- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/cmake/lidar_only_cppConfig.cmake
+[11.747s] -- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/cmake/lidar_only_cppConfig-version.cmake
+[11.747s] -- Up-to-date: /home/ansh/Desktop/lidar_only_cpp/install/lidar_only_cpp/share/lidar_only_cpp/package.xml
+[11.749s] Invoked command in '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1=(model_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(model_env) /usr/bin/cmake --install /home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp

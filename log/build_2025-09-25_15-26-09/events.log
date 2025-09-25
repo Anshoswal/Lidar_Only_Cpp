@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000641] (lidar_only_cpp) JobQueued: {'identifier': 'lidar_only_cpp', 'dependencies': OrderedDict()}
+[0.000954] (lidar_only_cpp) JobStarted: {'identifier': 'lidar_only_cpp'}
+[0.008624] (lidar_only_cpp) JobProgress: {'identifier': 'lidar_only_cpp', 'progress': 'cmake'}
+[0.011918] (lidar_only_cpp) JobProgress: {'identifier': 'lidar_only_cpp', 'progress': 'build'}
+[0.012011] (lidar_only_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp', '--', '-j12', '-l12'], 'cwd': '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'ansh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.9/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/ansh'), ('OLDPWD', '/home/ansh/Desktop/lidar_only_cpp'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(model_env) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1564'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=de232f7ab2a790b8badf9bf168d500f0'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ansh'), ('EUFS_MASTER', '/home/ansh/eufs_ws/src'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ansh'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/ansh/Desktop/lidar_only_cpp/model_env/bin:/usr/local/cuda-12.9/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/ansh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ansh-Cyborg-15-A12UDX:@/tmp/.ICE-unix/1564,unix/ansh-Cyborg-15-A12UDX:/tmp/.ICE-unix/1564'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94403a4a_7a06_4a28_af83_a69fbb65306e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('VIRTUAL_ENV_PROMPT', '(model_env)'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VIRTUAL_ENV', '/home/ansh/Desktop/lidar_only_cpp/model_env'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=de232f7ab2a790b8badf9bf168d500f0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ansh/onnxruntime-linux-x64-1.17.1::/home/ansh/onnxruntime-linux-x64-1.17.1:/opt/ros/humble')]), 'shell': False}
+[0.070979] (lidar_only_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target data_extractor_node\x1b[0m\n'}
+[0.099741] (-) TimerEvent: {}
+[0.108116] (lidar_only_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/data_extractor_node.dir/src/data_extractor_node.cpp.o\x1b[0m\n'}
+[0.199860] (-) TimerEvent: {}
+[0.300202] (-) TimerEvent: {}
+[0.400526] (-) TimerEvent: {}
+[0.500848] (-) TimerEvent: {}
+[0.601229] (-) TimerEvent: {}
+[0.704877] (-) TimerEvent: {}
+[0.806085] (-) TimerEvent: {}
+[0.906439] (-) TimerEvent: {}
+[1.006714] (-) TimerEvent: {}
+[1.107201] (-) TimerEvent: {}
+[1.207478] (-) TimerEvent: {}
+[1.307852] (-) TimerEvent: {}
+[1.408222] (-) TimerEvent: {}
+[1.508511] (-) TimerEvent: {}
+[1.608766] (-) TimerEvent: {}
+[1.709088] (-) TimerEvent: {}
+[1.809427] (-) TimerEvent: {}
+[1.909739] (-) TimerEvent: {}
+[2.009989] (-) TimerEvent: {}
+[2.110265] (-) TimerEvent: {}
+[2.210519] (-) TimerEvent: {}
+[2.310808] (-) TimerEvent: {}
+[2.411134] (-) TimerEvent: {}
+[2.511530] (-) TimerEvent: {}
+[2.611978] (-) TimerEvent: {}
+[2.712289] (-) TimerEvent: {}
+[2.812598] (-) TimerEvent: {}
+[2.912868] (-) TimerEvent: {}
+[3.013183] (-) TimerEvent: {}
+[3.113544] (-) TimerEvent: {}
+[3.213833] (-) TimerEvent: {}
+[3.314094] (-) TimerEvent: {}
+[3.414434] (-) TimerEvent: {}
+[3.514790] (-) TimerEvent: {}
+[3.615182] (-) TimerEvent: {}
+[3.715558] (-) TimerEvent: {}
+[3.815865] (-) TimerEvent: {}
+[3.916150] (-) TimerEvent: {}
+[4.016466] (-) TimerEvent: {}
+[4.116742] (-) TimerEvent: {}
+[4.217104] (-) TimerEvent: {}
+[4.317425] (-) TimerEvent: {}
+[4.417762] (-) TimerEvent: {}
+[4.518039] (-) TimerEvent: {}
+[4.618312] (-) TimerEvent: {}
+[4.718614] (-) TimerEvent: {}
+[4.818880] (-) TimerEvent: {}
+[4.919163] (-) TimerEvent: {}
+[5.019448] (-) TimerEvent: {}
+[5.119814] (-) TimerEvent: {}
+[5.220086] (-) TimerEvent: {}
+[5.320401] (-) TimerEvent: {}
+[5.420708] (-) TimerEvent: {}
+[5.521048] (-) TimerEvent: {}
+[5.621305] (-) TimerEvent: {}
+[5.721687] (-) TimerEvent: {}
+[5.796482] (lidar_only_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint DataExtractorWithMarkers::predict_cone_type(const std::vector<float>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.796728] (lidar_only_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:1112:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KOrt::Session::Run(Ort::RunOptions, const char**, const Ort::Value* [1], int, const char**, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.796809] (lidar_only_cpp) StderrLine: {'line': b' 1112 |             auto output_tensors = \x1b[01;31m\x1b[Ksession_->Run(\x1b[m\x1b[K\n'}
+[5.796877] (lidar_only_cpp) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[5.796934] (lidar_only_cpp) StderrLine: {'line': b' 1113 | \x1b[01;31m\x1b[K                Ort::RunOptions{nullptr},\x1b[m\x1b[K\n'}
+[5.796992] (lidar_only_cpp) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K       \n'}
+[5.797050] (lidar_only_cpp) StderrLine: {'line': b' 1114 | \x1b[01;31m\x1b[K                input_node_names_.data(), input_ptrs, 1,\x1b[m\x1b[K\n'}
+[5.797108] (lidar_only_cpp) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.797173] (lidar_only_cpp) StderrLine: {'line': b' 1115 | \x1b[01;31m\x1b[K                output_node_names_.data(), 1\x1b[m\x1b[K\n'}
+[5.797218] (lidar_only_cpp) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K    \n'}
+[5.797253] (lidar_only_cpp) StderrLine: {'line': b' 1116 | \x1b[01;31m\x1b[K            )\x1b[m\x1b[K;\n'}
+[5.797294] (lidar_only_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                   \n'}
+[5.797329] (lidar_only_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:975\x1b[m\x1b[K:\n'}
+[5.797364] (lidar_only_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1062:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Ort::Value> Ort::detail::SessionImpl<T>::Run(const Ort::RunOptions&, const char* const*, const Ort::Value*, size_t, const char* const*, size_t) [with T = OrtSession; size_t = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.797407] (lidar_only_cpp) StderrLine: {'line': b' 1062 |   std::vector<Value> \x1b[01;36m\x1b[KRun\x1b[m\x1b[K(const RunOptions& run_options, const char* const* input_names, const Value* input_values, size_t input_count,\n'}
+[5.797443] (lidar_only_cpp) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.797478] (lidar_only_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1062:102:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 3 from \xe2\x80\x98\x1b[01m\x1b[Kconst Ort::Value* [1]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst Ort::Value*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.797522] (lidar_only_cpp) StderrLine: {'line': b' 1062 |   std::vector<Value> Run(const RunOptions& run_options, const char* const* input_names, \x1b[01;36m\x1b[Kconst Value* input_values\x1b[m\x1b[K, size_t input_count,\n'}
+[5.797558] (lidar_only_cpp) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.797593] (lidar_only_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1068:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid Ort::detail::SessionImpl<T>::Run(const Ort::RunOptions&, const char* const*, const Ort::Value*, size_t, const char* const*, Ort::Value*, size_t) [with T = OrtSession; size_t = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.797629] (lidar_only_cpp) StderrLine: {'line': b' 1068 |   void \x1b[01;36m\x1b[KRun\x1b[m\x1b[K(const RunOptions& run_options, const char* const* input_names, const Value* input_values, size_t input_count,\n'}
+[5.797666] (lidar_only_cpp) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.797699] (lidar_only_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1068:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 7 arguments, 6 provided\n'}
+[5.797734] (lidar_only_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1071:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid Ort::detail::SessionImpl<T>::Run(const Ort::RunOptions&, const Ort::IoBinding&) [with T = OrtSession]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.797773] (lidar_only_cpp) StderrLine: {'line': b' 1071 |   void \x1b[01;36m\x1b[KRun\x1b[m\x1b[K(const RunOptions& run_options, const IoBinding&);  ///< Wraps OrtApi::RunWithBinding\n'}
+[5.797808] (lidar_only_cpp) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.797841] (lidar_only_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1071:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 6 provided\n'}
+[5.797875] (lidar_only_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:1119:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.797910] (lidar_only_cpp) StderrLine: {'line': b' 1119 |             int64_t* prediction = output_tensors[0].GetTensorMutableData<int64_t\x1b[01;31m\x1b[K>\x1b[m\x1b[K();\n'}
+[5.797947] (lidar_only_cpp) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.797981] (lidar_only_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:1119:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.798018] (lidar_only_cpp) StderrLine: {'line': b' 1119 |             int64_t* prediction = output_tensors[0].GetTensorMutableData<int64_t>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.798051] (lidar_only_cpp) StderrLine: {'line': b'      |                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.821815] (-) TimerEvent: {}
+[5.922212] (-) TimerEvent: {}
+[6.022529] (-) TimerEvent: {}
+[6.122886] (-) TimerEvent: {}
+[6.223141] (-) TimerEvent: {}
+[6.323512] (-) TimerEvent: {}
+[6.423807] (-) TimerEvent: {}
+[6.524101] (-) TimerEvent: {}
+[6.624357] (-) TimerEvent: {}
+[6.724656] (-) TimerEvent: {}
+[6.824989] (-) TimerEvent: {}
+[6.925244] (-) TimerEvent: {}
+[7.025519] (-) TimerEvent: {}
+[7.125845] (-) TimerEvent: {}
+[7.226119] (-) TimerEvent: {}
+[7.326394] (-) TimerEvent: {}
+[7.426658] (-) TimerEvent: {}
+[7.526970] (-) TimerEvent: {}
+[7.627281] (-) TimerEvent: {}
+[7.727586] (-) TimerEvent: {}
+[7.827915] (-) TimerEvent: {}
+[7.928182] (-) TimerEvent: {}
+[8.028422] (-) TimerEvent: {}
+[8.104284] (lidar_only_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/data_extractor_node.dir/build.make:76: CMakeFiles/data_extractor_node.dir/src/data_extractor_node.cpp.o] Error 1\n'}
+[8.104701] (lidar_only_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_extractor_node.dir/all] Error 2\n'}
+[8.105082] (lidar_only_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.106937] (lidar_only_cpp) CommandEnded: {'returncode': 2}
+[8.114658] (lidar_only_cpp) JobEnded: {'identifier': 'lidar_only_cpp', 'rc': 2}
+[8.125135] (-) EventReactorShutdown: {}

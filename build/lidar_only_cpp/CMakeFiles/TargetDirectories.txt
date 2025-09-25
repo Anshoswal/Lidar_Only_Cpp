@@ -1,0 +1,10 @@
+/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp/CMakeFiles/uninstall.dir
+/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp/CMakeFiles/lidar_only_cpp_uninstall.dir
+/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp/CMakeFiles/data_extractor_node.dir
+/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp/CMakeFiles/test.dir
+/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp/CMakeFiles/edit_cache.dir
+/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp/CMakeFiles/rebuild_cache.dir
+/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp/CMakeFiles/list_install_components.dir
+/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp/CMakeFiles/install.dir
+/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp/CMakeFiles/install/local.dir
+/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp/CMakeFiles/install/strip.dir

@@ -1,0 +1,2 @@
+Invoking command in '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp -- -j12 -l12
+Invoked command in '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp -- -j12 -l12

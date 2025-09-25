@@ -1,0 +1,35 @@
+[33mCMake Warning (dev) at CMakeLists.txt:17 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:[m[K In member function ‘[01m[Kint DataExtractorWithMarkers::predict_cone_type(const std::vector<float>&)[m[K’:
+[01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:642:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOrt::Value::CreateTensor<float>(Ort::AllocatorWithDefaultOptions&, const float*, std::vector<float>::size_type, long int*, std::vector<long int, std::allocator<long int> >::size_type)[m[K’
+  642 |         Ort::Value input_tensor = [01;31m[KOrt::Value::CreateTensor<float>([m[K
+      |                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  643 | [01;31m[K            allocator_, features.data(), features.size(), input_shape.data(), input_shape.size()[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  644 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                         
+In file included from [01m[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:2372[m[K,
+                 from [01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:526[m[K:
+[01m[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_inline.h:1489:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic Ort::Value Ort::Value::CreateTensor(const OrtMemoryInfo*, T*, size_t, const int64_t*, size_t) [with T = float; OrtMemoryInfo = OrtMemoryInfo; size_t = long unsigned int; int64_t = long int][m[K’
+ 1489 | inline Value [01;36m[KValue[m[K::CreateTensor(const OrtMemoryInfo* info, T* p_data, size_t p_data_element_count, const int64_t* shape, size_t shape_len) {
+      |              [01;36m[K^~~~~[m[K
+[01m[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_inline.h:1489:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KOrt::AllocatorWithDefaultOptions[m[K’ to ‘[01m[Kconst OrtMemoryInfo*[m[K’
+ 1489 | inline Value Value::CreateTensor([01;36m[Kconst OrtMemoryInfo* info[m[K, T* p_data, size_t p_data_element_count, const int64_t* shape, size_t shape_len) {
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_inline.h:1501:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic Ort::Value Ort::Value::CreateTensor(OrtAllocator*, const int64_t*, size_t) [with T = float; OrtAllocator = OrtAllocator; int64_t = long int; size_t = long unsigned int][m[K’
+ 1501 | inline Value [01;36m[KValue[m[K::CreateTensor(OrtAllocator* allocator, const int64_t* shape, size_t shape_len) {
+      |              [01;36m[K^~~~~[m[K
+[01m[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_inline.h:1501:14:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 5 provided
+gmake[2]: *** [CMakeFiles/data_extractor_node.dir/build.make:76: CMakeFiles/data_extractor_node.dir/src/data_extractor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_extractor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

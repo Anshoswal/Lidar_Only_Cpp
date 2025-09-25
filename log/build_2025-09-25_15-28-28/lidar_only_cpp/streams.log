@@ -1,0 +1,14 @@
+[0.011s] Invoking command in '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp -- -j12 -l12
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target data_extractor_node[0m
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/data_extractor_node.dir/src/data_extractor_node.cpp.o[0m
+[5.462s] [01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:[m[K In member function ‘[01m[Kint DataExtractorWithMarkers::predict_cone_type(const std::vector<float>&)[m[K’:
+[5.462s] [01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:1109:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinput_ptrs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.462s]  1109 |             const Ort::Value* [01;35m[Kinput_ptrs[m[K[] = { &input_tensor };
+[5.462s]       |                               [01;35m[K^~~~~~~~~~[m[K
+[10.411s] [100%] [32m[1mLinking CXX executable data_extractor_node[0m
+[10.557s] /usr/bin/ld: cannot find -lonnxruntime: No such file or directory
+[11.303s] collect2: error: ld returned 1 exit status
+[11.304s] gmake[2]: *** [CMakeFiles/data_extractor_node.dir/build.make:309: data_extractor_node] Error 1
+[11.305s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_extractor_node.dir/all] Error 2
+[11.305s] gmake: *** [Makefile:146: all] Error 2
+[11.307s] Invoked command in '/home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ansh/Desktop/lidar_only_cpp/build/lidar_only_cpp -- -j12 -l12

@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target data_extractor_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/data_extractor_node.dir/src/data_extractor_node.cpp.o[0m
+[01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:[m[K In member function ‘[01m[Kint DataExtractorWithMarkers::predict_cone_type(const std::vector<float>&)[m[K’:
+[01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:1112:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOrt::Session::Run(Ort::RunOptions, const char**, const Ort::Value* [1], int, const char**, int)[m[K’
+ 1112 |             auto output_tensors = [01;31m[Ksession_->Run([m[K
+      |                                   [01;31m[K~~~~~~~~~~~~~^[m[K
+ 1113 | [01;31m[K                Ort::RunOptions{nullptr},[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K       
+ 1114 | [01;31m[K                input_node_names_.data(), input_ptrs, 1,[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ 1115 | [01;31m[K                output_node_names_.data(), 1[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K    
+ 1116 | [01;31m[K            )[m[K;
+      |             [01;31m[K~[m[K                                   
+In file included from [01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:975[m[K:
+[01m[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1062:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<Ort::Value> Ort::detail::SessionImpl<T>::Run(const Ort::RunOptions&, const char* const*, const Ort::Value*, size_t, const char* const*, size_t) [with T = OrtSession; size_t = long unsigned int][m[K’
+ 1062 |   std::vector<Value> [01;36m[KRun[m[K(const RunOptions& run_options, const char* const* input_names, const Value* input_values, size_t input_count,
+      |                      [01;36m[K^~~[m[K
+[01m[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1062:102:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kconst Ort::Value* [1][m[K’ to ‘[01m[Kconst Ort::Value*[m[K’
+ 1062 |   std::vector<Value> Run(const RunOptions& run_options, const char* const* input_names, [01;36m[Kconst Value* input_values[m[K, size_t input_count,
+      |                                                                                         [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1068:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Ort::detail::SessionImpl<T>::Run(const Ort::RunOptions&, const char* const*, const Ort::Value*, size_t, const char* const*, Ort::Value*, size_t) [with T = OrtSession; size_t = long unsigned int][m[K’
+ 1068 |   void [01;36m[KRun[m[K(const RunOptions& run_options, const char* const* input_names, const Value* input_values, size_t input_count,
+      |        [01;36m[K^~~[m[K
+[01m[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1068:8:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 6 provided
+[01m[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1071:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid Ort::detail::SessionImpl<T>::Run(const Ort::RunOptions&, const Ort::IoBinding&) [with T = OrtSession][m[K’
+ 1071 |   void [01;36m[KRun[m[K(const RunOptions& run_options, const IoBinding&);  ///< Wraps OrtApi::RunWithBinding
+      |        [01;36m[K^~~[m[K
+[01m[K/home/ansh/onnxruntime-linux-x64-1.17.1/include/onnxruntime_cxx_api.h:1071:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 6 provided
+[01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:1119:81:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+ 1119 |             int64_t* prediction = output_tensors[0].GetTensorMutableData<int64_t[01;31m[K>[m[K();
+      |                                                                                 [01;31m[K^[m[K
+[01m[K/home/ansh/Desktop/lidar_only_cpp/src/lidar_only_cpp/src/data_extractor_node.cpp:1119:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+ 1119 |             int64_t* prediction = output_tensors[0].GetTensorMutableData<int64_t>([01;31m[K)[m[K;
+      |                                                                                   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/data_extractor_node.dir/build.make:76: CMakeFiles/data_extractor_node.dir/src/data_extractor_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/data_extractor_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
