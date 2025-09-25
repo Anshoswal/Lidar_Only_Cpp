@@ -66,6 +66,10 @@
         "cfenv": "cpp",
         "cinttypes": "cpp",
         "typeindex": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "any": "cpp",
+        "codecvt": "cpp",
+        "valarray": "cpp",
+        "variant": "cpp"
     }
 }
